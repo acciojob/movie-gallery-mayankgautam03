@@ -3,55 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Movie Image Gallery</title>
+    <title>Movie Gallery</title>
+    <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
+    <div class="container-fluid">
+        <!-- First Row: 12 images -->
+        <div class="row">
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Movie"></div>
+        </div>
 
-<div class="container-fluid">
-    <!-- First Row (12 images, col-sm-1 each) -->
-    <div class="row">
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-1 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-    </div>
+        <!-- Second Row: 6 images -->
+        <div class="row">
+            <div class="col-sm-2"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+        </div>
 
-    <!-- Second Row (6 images, col-sm-2 each) -->
-    <div class="row">
-        <div class="col-sm-2 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-2 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-2 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-2 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-2 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-2 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-    </div>
+        <!-- Third Row: 3 images -->
+        <div class="row">
+            <div class="col-sm-4"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+            <div class="col-sm-4"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+            <div class="col-sm-4"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
+        </div>
 
-    <!-- Third Row (3 images, col-sm-4 each) -->
-    <div class="row">
-        <div class="col-sm-4 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-4 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-        <div class="col-sm-4 col-12"><img src="your-image-url" class="img-fluid" width="100" height="100"></div>
-    </div>
-
-    <!-- Fourth Row (1 image, col-sm-12 full width) -->
-    <div class="row">
-        <div class="col-sm-12 col-12 text-center">
-            <img src="your-image-url" class="img-fluid" width="100" height="100">
+        <!-- Fourth Row: 1 image -->
+        <div class="row">
+            <div class="col-sm-12 text-center"><img src="https://plus.unsplash.com/premium_photo-1669324357471-e33e71e3f3d8" alt="Movie"></div>
         </div>
     </div>
-</div>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-</html>
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle
+		</body>
+		</html>
